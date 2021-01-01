@@ -10,12 +10,6 @@ function BancoDatos(props){
             <p>{props.state.estado}</p>
             <p>{props.state.ciudad}</p>
             <p>{props.state.terminos}</p>
-
-            <div className="form-group col-md-6">
-                    <label htmlFor="email">E-mail</label>
-                    <input type="email" className="form-control" id="email" name="email" value={props.state.email} 
-                        onChange={props.handleChange} />
-            </div>
         </>
     );
 }
